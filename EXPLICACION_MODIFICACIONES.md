@@ -47,12 +47,13 @@ Se transformó la propuesta base para responder a las necesidades de una empresa
 
 ### B. Imágenes y Recursos Visuales
 - **Antes:** Marcadores de posición o fotos de cortes de pelo.
-- **Después:** Curaduría de imágenes fotográficas reales en alta resolución procedentes de Unsplash:
-  - Imagen principal en el Hero (`hero` con iluminación tenue y mesas preparadas).
+- **Después:** Curaduría de imágenes fotográficas reales en alta resolución:
+  - Fotografía enlazada y destacada de la **Plaza Daniel Alcides Carrión** (Cerro de Pasco) en la sección inicial (Hero), situada junto a la descripción del restaurante en una tarjeta interactiva de alta fidelidad con geolocalización.
+  - Imagen de fondo atmosférica en el Hero (`hero` con iluminación tenue y mesas preparadas).
   - Fotografía del Chef emplatando con dedicación en la sección *"Nosotros"*.
   - 8 fotografías de especialidades (Entrantes gourmet, Solomillo Angus a la brasa, Salmón silvestre, Risotto de trufas, Coulant de chocolate, Coctelería de autor).
   - Cuadrícula de 6 imágenes en la *"Galería"* (Salón, Bar, Terraza exterior, Cocina en vivo).
-  - Implementación del atributo nativo `loading="lazy"` para optimizar la velocidad de carga (Core Web Vitals).
+  - Implementación de `loading="eager"` en el Hero y `loading="lazy"` en las secciones inferiores para optimizar la velocidad de carga (Core Web Vitals).
 
 ### C. Textos y Copywriting Comercial
 - **Antes:** Frases genéricas de plantilla.
